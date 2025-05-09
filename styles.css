@@ -70,8 +70,8 @@ body {
   
   .envelope {
     position: relative;
-    width: 320px;
-    height: 220px;
+    width: 350px;
+    height: 250px;
     perspective: 1000px;
     cursor: pointer;
     filter: drop-shadow(0 10px 20px rgba(210, 77, 122, 0.3));
@@ -107,15 +107,15 @@ body {
   .letter {
     position: absolute;
     width: 94%;
-    height: 94%;
+    height: 92%;
     background: linear-gradient(to bottom, #fff9fc 0%, #fff0f5 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: 'Courier New', Courier, monospace;
-    padding: 20px;
+    padding: 15px;
     box-sizing: border-box;
     transform: scale(0.9) translateY(20px);
     opacity: 0;
